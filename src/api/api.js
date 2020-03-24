@@ -3,7 +3,7 @@ import Axios from 'axios';
 const API_KEY = 'b007e99d'
 
 const instance = Axios.create({
-    baseURL: 'http://www.omdbapi.com/' // ?t={title} ?s={title} &apikey={API_KEY}
+    baseURL: 'www.omdbapi.com/'
 })
 
 export const getFilmsByTitle = (title) => {
